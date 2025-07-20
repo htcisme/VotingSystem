@@ -1,0 +1,39 @@
+node_modules/
+hardhat/
+
+# Ignore Hardhat cache and artifacts
+cache/
+artifacts/
+# Ignore local environment files
+.env
+# Ignore logs
+logs/
+*.log
+# Ignore coverage reports
+coverage/
+# Ignore build directories
+build/
+# Ignore IDE specific files
+.vscode/
+.idea/
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+# Ignore npm debug log
+npm-debug.log*
+# Ignore yarn lock files
+yarn-debug.log*
+yarn-error.log*
+# Ignore package lock files
+package-lock.json
+# Ignore temporary files
+*.tmp
+*.temp
+# Ignore test files
+test/
+
+tests/
+# Ignore deployment scripts
+deploy/
+# Ignore Hardhat config files
+hardhat.config.js
